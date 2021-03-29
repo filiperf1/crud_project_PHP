@@ -8,7 +8,7 @@
             $url = $this->getUrl();
 
             //look in controllers for values
-            if(file_exists('../app/controllers'. ucwords($url[0]) . '.php')){
+            if(@file_exists('../app/controllers/'. ucwords($url[0]) . '.php')){
                 //set a new controller, ucwords for format the first letter
                 $this->currentController = ucwords($url[0]);
                 unset($url[0]);

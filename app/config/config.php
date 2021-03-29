@@ -9,7 +9,7 @@
     define("APPROOT", dirname(dirname(__FILE__)));
 
     //Path for URL root for dynamic links
-    define('URLROOT', 'localhost/irrobaProject');
+    define('URLROOT', 'http://localhost/irrobaProject');
 
     //Site name
     define('SITENAME', 'Irroba Project');

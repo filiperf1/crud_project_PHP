@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to right, #70c3bd,  #cecae3);
+    background-repeat: no-repeat;
+}
+h4 {
+    margin: 1rem 0.5rem;
+}
+
+h2{
+    margin-top: 0.3rem;
+}
+
+span{
+    font-weight: bold;
+}
+
+.irroba-logo{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    padding: auto;
+    width: 180px;
+    height: 50px;
+    vertical-align: middle;
+}
+.container {
+    position: relative;
+    width: 70%;
+    height: 700px;
+    margin: auto;
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 50px;
+    background-color: #fff;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.container-item {
+    position: static;
+    margin: 0;
+    padding: 0;
+}
+
+.container-item ul li{
+    display: inline-block;
+    padding-top: 0.5rem;
+    text-decoration: none;
+}
+
+
+.btn{
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0.5rem 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight:300;
+    color:#f8f8f8;
+    background-color:#bfe1d3;
+    text-align:center;
+    transition: all 0.2s;
+    border: none;
+}
+
+.btn:hover{
+    background-color:#418b6c;
+}
+
+ul a.btn{
+    position: relative;
+    float: right;
+}
