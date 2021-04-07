@@ -3,6 +3,7 @@
 ?>
 
 <div class="container">
+    <a href="<?php echo URLROOT?>" class="btn">Voltar</a>
     <form action="<?php echo URLROOT ?>/pages/update/<?php echo $data['users']->user_id?>" method= "POST">
         <h2>Editar Usuario</h2>
         <div class="form-item">
@@ -20,3 +21,5 @@
         <button class="btn" name="submit" type="submit">Salvar</button>
     </form>
 </div>
+
+<?php require APPROOT . '/views/component/footer.php' ?>

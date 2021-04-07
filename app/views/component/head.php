@@ -7,5 +7,5 @@
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
     </head>
-    <img src="https://cdn.irroba.com.br/static/catalog/image/irroba_logo.svg" alt="" class="irroba-logo">
+    <img src="<?php echo URLROOT?>/public/img/logo-8.svg" alt="" class="irroba-logo">
 </html>
